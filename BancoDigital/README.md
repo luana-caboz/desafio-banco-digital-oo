@@ -1,18 +1,27 @@
-## Getting Started
+## Projeto Banco Digital CabozBank
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desafio disponibilizado em: [Repositório no GitHub](https://github.com/falvojr/lab-banco-digital-oo) (implementação de referência)
 
-## Folder Structure
+## Implementações
 
-The workspace contains two folders by default, where:
+### Criação de Contas Corrente e Poupança:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Adicionei a funcionalidade para criar tanto contas correntes quanto contas poupanças.
+Imediatamente após a criação, o número da conta é exibido ao usuário para facilitar futuras operações.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Impressão de Extrato:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Implementei a funcionalidade para imprimir extratos de conta, permitindo que os usuários visualizem seu dados, detalhes das transações e o saldo atual.
 
-## Dependency Management
+### Sistema de Menu Interativo:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Criei um menu interativo no console para facilitar a navegação e a execução de operações pelos usuários.
+Utilizei um loop do-while para garantir que o menu seja exibido repetidamente até que o usuário escolha sair.
+
+### Validação e Feedback ao Usuário:
+
+Adicionei mensagens de feedback para informar o usuário sobre o sucesso ou falha das operações realizadas.
+
+### Uso de Abstrações e Interfaces:
+
+Utilizeu a interface IConta para definir as operações básicas das contas e garantir a implementação consistente em diferentes tipos de contas (corrente e poupança).
